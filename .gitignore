@@ -1,0 +1,15 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+
+# Projects
+node_modules/
+dist/
+
+# Tools
+package-lock.json
+yarn.lock

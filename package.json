@@ -1,0 +1,65 @@
+{
+  "name": "vue-boilerplate",
+  "version": "0.1.0",
+  "description": "Vue app boilerplate",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "modern-normalize": "^0.4.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.2",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.2",
+    "@vue/cli-service": "^3.0.0-beta.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "plugins": [
+      "lodash"
+    ],
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/essential",
+      "standard"
+    ],
+    "rules": {
+      "no-new": 0,
+      "comma-dangle": [2, "always-multiline"],
+      "camelcase": 0,
+      "one-var": 0,
+      "no-throw-literal": 0,
+      "no-return-assign": 0,
+      "no-useless-escape": 0
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
